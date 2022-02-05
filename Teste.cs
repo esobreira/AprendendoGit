@@ -6,5 +6,8 @@ namespace AprendendoGit {
         public static int GetTesteAvancado() {
             return 1;
         }
+        public static int GetTesteAvancado2() {
+            return 2;
+        }
     }
 }
