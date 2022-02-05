@@ -8,7 +8,8 @@ var reg1 = new Registro()
 {
     Id = 1,
     DataNascimento = new DateTime(1982, 2, 28),
-    Nome = "Eberton Sobreira"
+    Nome = "Eberton Sobreira",
+    Sexo = Sexo.Masculino
 };
 
 Console.WriteLine($"ID: {reg1.Id}, {reg1.Nome}, {reg1.DataNascimento.ToShortDateString()}");
